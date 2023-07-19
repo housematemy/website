@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import ModalVideo from "react-modal-video"
 import { Link } from "gatsby"
 
+import BannerImg from "../../assets/images/banner-img1.jpg"
+
 const MainBanner = () => {
   const [isOpen, setOpen] = useState(false)
 
@@ -62,6 +64,7 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="600"
               >
+                <img src={BannerImg} alt="Shape" />
               </div>
             </div>
           </div>
