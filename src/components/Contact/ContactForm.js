@@ -27,9 +27,8 @@ const ContactForm = () => {
             <div className="col-lg-6 col-md-12">
               <div className="contact-form">
                 {/* Update your getform API key here */}
-                <form
+                <form netlify
                   id="contactForm"
-                  action="https://getform.io/f/37c4cd67-6e27-40e1-b0c9-0e63d8f0448e"
                   method="POST"
                 >
                   <div className="row">
