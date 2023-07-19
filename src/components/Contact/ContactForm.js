@@ -27,7 +27,7 @@ const ContactForm = () => {
             <div className="col-lg-6 col-md-12">
               <div className="contact-form">
                 {/* Update your getform API key here */}
-                <form name="getStartedForm" netlify
+                <form name="getStartedForm" method="POST" data-netlify="true"
                 >
                   <div className="row">
                     <div className="col-lg-6 col-md-6">
